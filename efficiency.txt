@@ -1,0 +1,11 @@
+- Dictionary : O( n * log n)    -the insert method, which has a time complexity of O(log n) and Since the constructor reads each word in the file, it takes O(n)
+
+- addWord    : O(log n)         - because it is proportional to the height of the tree, which is O(log n) in the worst case, 
+
+- findWord   : O(log n)         - because it is proportional to the height of the tree, which is O(log n) in the worst case, 
+
+- deleteWord : O(log n)         - because it is proportional to the height of the tree, which is O(log n) in the worst case, 
+
+- findSimilar: O(n * m * log n) - m is the length of the given word. It generates n * m candidate words and checks if each exists in the AVL tree, which takes O(log n) time per check..
+
+- saveToFile : O(n)             - because it is proportional to the number of words in the AVL tree.
